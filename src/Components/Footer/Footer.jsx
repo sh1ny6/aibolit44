@@ -47,9 +47,12 @@ export const Footer = () => {
             >
               История компании
             </HashLink>
-            <Link className='footer-left-bottom-block__link footer-basictext'>
+            <HashLink
+              to='/Specialists#nav'
+              className='footer-left-bottom-block__link footer-basictext'
+            >
               Наши специалисты
-            </Link>
+            </HashLink>
             <Link className='footer-left-bottom-block__link footer-basictext'>
               Вакансии
             </Link>
@@ -61,9 +64,12 @@ export const Footer = () => {
             </Link>
           </div>
           <div className='footer-left-bottom-block'>
-            <Link className='footer-left-bottom-block__link footer-basictext'>
+            <HashLink
+              to='/Specialists/Specialist#reply'
+              className='footer-left-bottom-block__link footer-basictext'
+            >
               Отзывы
-            </Link>
+            </HashLink>
             <HashLink
               to='/#Contacts'
               className='footer-left-bottom-block__link footer-basictext'

@@ -19,8 +19,6 @@ $--bg: #fffefe;
   --brown-bg: #ede9e8;
   --font-family: 'FN Book', sans-serif;
   --second-family: 'SBCyrillic', sans-serif;
-  // font-family: 'FN Book', sans-serif;
-  // --second-family: 'SB Cyrillic', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -67,37 +65,15 @@ p {
   font-weight: inherit;
   font-size: inherit;
 }
-// .container {
-//   max-width: 1480px;
-//   margin: 0 auto;
-//   padding: 0 0px;
-//   box-sizing: border-box;
-// }
-
-// button {
-//   // border-radius: 8px;
-//   // border: 1px solid transparent;
-//   // padding: 0.6em 1.2em;
-//   // font-size: 1em;
-//   // font-weight: 500;
-//   // font-family: inherit;
-//   // background-color: #1a1a1a;
-//   // cursor: pointer;
-//   // transition: border-color 0.25s;
-// }
-// button:hover {
-// }
-// button:focus,
-// button:focus-visible {
-// }
 .slide-in {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #0f0f0f;
+  background: var(--orange);
   transform-origin: bottom;
+  z-index: 100;
 }
 .slide-out {
   position: fixed;
@@ -105,9 +81,10 @@ p {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #0f0f0f;
+  background: var(--orange);
   transform-origin: bottom;
+  z-index: 100;
 }
-.text-color{
+.text-color {
   color: var(--text);
 }

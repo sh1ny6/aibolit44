@@ -11,8 +11,17 @@ import { Header } from './Components/Header/Header.jsx';
 import { Products } from './Components/Products/Products.jsx';
 // import { SignUp } from './Components/SignUp/SignUp.jsx';
 import { News } from './Components/News/News.jsx';
+import transition from './transition.jsx';
 
-// import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
+
+const HomeWithTransition = transition(Home);
+const HistoryWithTransition = transition(History);
+const ProductsWithTransition = transition(Products);
+const SpecialistsWithTransition = transition(Specialists);
+const SpecialistWithTransition = transition(Specialist);
+const BlogWithTransition = transition(Blog);
+const NewsWithTransition = transition(News);
 
 function App() {
   const location = useLocation();
@@ -22,22 +31,22 @@ function App() {
       style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
     >
       <Header></Header>
-      {/* <AnimatePresence mode='wait'> */}
-      <Routes location={location} key={location.pathname}>
-        <Route index element={<Home></Home>} />
-        <Route path='/History' element={<History></History>} />
-        <Route path='/Products' element={<Products></Products>} />
-        <Route path='/Specialists' element={<Specialists></Specialists>} />
-        <Route
-          path='/Specialists/Specialist'
-          element={<Specialist></Specialist>}
-        />
-        <Route path='/Account' element={<Account></Account>} />
-        <Route path='/Blog' element={<Blog></Blog>} />
-        <Route path='/News' element={<News></News>} />
-        {/* <Route path='/SignUp' element={<SignUp></SignUp>} /> */}
-      </Routes>
-      {/* </AnimatePresence> */}
+      <AnimatePresence mode='wait'>
+        <Routes location={location} key={location.pathname}>
+          <Route index element={<HomeWithTransition />} />
+          <Route path='/History' element={<HistoryWithTransition />} />
+          <Route path='/Products' element={<ProductsWithTransition />} />
+          <Route path='/Specialists' element={<SpecialistsWithTransition />} />
+          <Route
+            path='/Specialists/Specialist'
+            element={<SpecialistWithTransition />}
+          />
+          <Route path='/Account' element={<Account />} />
+          <Route path='/Blog' element={<BlogWithTransition />} />
+          <Route path='/News' element={<NewsWithTransition />} />
+          {/* <Route path='/SignUp' element={<SignUp></SignUp>} /> */}
+        </Routes>
+      </AnimatePresence>
       <Footer></Footer>
     </div>
   );

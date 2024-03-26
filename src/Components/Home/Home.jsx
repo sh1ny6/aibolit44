@@ -1,6 +1,6 @@
 import React from 'react';
 import { MainCarousel } from './MainCarousel/MainCarousel';
-// import transition from '../../transitions'
+import transition from '../../transition';
 import { Uslugi } from './Uslugi/Uslugi';
 import './Home.css';
 // import { Link } from 'react-router-dom';
@@ -185,4 +185,4 @@ export const Home = () => {
     </div>
   );
 };
-// export default transition(Home);
+export default transition(Home);

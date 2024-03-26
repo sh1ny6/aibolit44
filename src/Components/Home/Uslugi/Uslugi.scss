@@ -21,8 +21,10 @@
   border-radius: 20px;
   padding: 24px;
 }
-// .uslugi-item-right {
-// }
+.uslugi-item-right {
+  display: flex;
+  justify-content: space-between;
+}
 .uslugi-item__h4 {
   font-family: 'SB Cyrillic';
   font-weight: 400;
@@ -36,6 +38,7 @@
   font-size: 20px;
   line-height: 100%;
   color: var(--brown);
+  align-self: flex-end;
 }
 .uslugi-item__ico {
   background-repeat: no-repeat;
@@ -44,99 +47,7 @@
   max-width: 110px;
   transition: 0.2s ease-in-out;
 }
-.uslugi-item__ico1 {
-  background-image: url('assets/img/p1.svg');
-}
-.uslugi-item:hover .uslugi-item__ico1 {
-  background-image: url('assets/img/p1b.svg');
-}
-.uslugi-item__ico2 {
-  background-image: url('assets/img/p2.svg');
-}
-.uslugi-item:hover .uslugi-item__ico2 {
-  background-image: url('assets/img/p2b.svg');
-}
-.uslugi-item__ico3 {
-  background-image: url('assets/img/p3.svg');
-}
-.uslugi-item:hover .uslugi-item__ico3 {
-  background-image: url('assets/img/p3b.svg');
-}
-.uslugi-item__ico4 {
-  background-image: url('assets/img/p4.svg');
-}
-.uslugi-item:hover .uslugi-item__ico4 {
-  background-image: url('assets/img/p4b.svg');
-}
-.uslugi-item__ico5 {
-  background-image: url('assets/img/p5.svg');
-}
-.uslugi-item:hover .uslugi-item__ico5 {
-  background-image: url('assets/img/p5b.svg');
-}
-.uslugi-item__ico6 {
-  background-image: url('assets/img/p6.svg');
-}
-.uslugi-item:hover .uslugi-item__ico6 {
-  background-image: url('assets/img/p6b.svg');
-}
-.uslugi-item__ico7 {
-  background-image: url('assets/img/p7.svg');
-}
-.uslugi-item:hover .uslugi-item__ico7 {
-  background-image: url('assets/img/p7b.svg');
-}
-.uslugi-item__ico8 {
-  background-image: url('assets/img/p8.svg');
-}
-.uslugi-item:hover .uslugi-item__ico8 {
-  background-image: url('assets/img/p8b.svg');
-}
-.uslugi-item__ico9 {
-  background-image: url('assets/img/p9.svg');
-}
-.uslugi-item:hover .uslugi-item__ico9 {
-  background-image: url('assets/img/p9b.svg');
-}
-.uslugi-item__ico10 {
-  background-image: url('assets/img/p10.svg');
-}
-.uslugi-item:hover .uslugi-item__ico10 {
-  background-image: url('assets/img/p10b.svg');
-}
-.uslugi-item__ico11 {
-  background-image: url('assets/img/p11.svg');
-}
-.uslugi-item:hover .uslugi-item__ico11 {
-  background-image: url('assets/img/p11b.svg');
-}
-.uslugi-item__ico12 {
-  transition: 0.2s ease-in-out;
-}
-.uslugi-item:hover .uslugi-item__ico12 {
+
+.uslugi-item:hover .uslugi-item__ico {
   fill: var(--brown);
-}
-.uslugi-item__ico13 {
-  background-image: url('assets/img/p13.svg');
-}
-.uslugi-item:hover .uslugi-item__ico13 {
-  background-image: url('assets/img/p13b.svg');
-}
-.uslugi-item__ico14 {
-  background-image: url('assets/img/p14.svg');
-}
-.uslugi-item:hover .uslugi-item__ico14 {
-  background-image: url('assets/img/p14b.svg');
-}
-.uslugi-item__ico15 {
-  background-image: url('assets/img/p15.png');
-}
-.uslugi-item:hover .uslugi-item__ico15 {
-  background-image: url('assets/img/p15b.png');
-}
-.uslugi-item__ico16 {
-  background-image: url('assets/img/p16.svg');
-}
-.uslugi-item:hover .uslugi-item__ico16 {
-  background-image: url('assets/img/p16b.svg');
 }

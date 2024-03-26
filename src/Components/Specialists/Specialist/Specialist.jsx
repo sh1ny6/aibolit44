@@ -58,11 +58,11 @@ export const Specialist = () => {
         </div>
         <div className='spec-plusblock' style={{ marginBottom: 30 }}>
           <div>
-            <h3 className='spec__h3'>Отзывы</h3>
+            <h3 className='spec__h3' id='reply'>Отзывы</h3>
             <p className='spec__p2'>101 отзыв</p>
           </div>
           <div className='spec-num'>
-            <button className='spec-num__page'>1</button>
+            <button className='spec-num__page text-color'>1</button>
             <button className='spec-num__page'>2</button>
             <button className='spec-num__page'>3</button>
             <button className='spec-num__page'>4</button>
@@ -214,7 +214,7 @@ export const Specialist = () => {
           </div>
         </div>
         <div className='spec-num2' style={{ marginTop: 24 }}>
-          <button className='spec-num__page'>1</button>
+          <button className='spec-num__page text-color'>1</button>
           <button className='spec-num__page'>2</button>
           <button className='spec-num__page'>3</button>
           <button className='spec-num__page'>4</button>

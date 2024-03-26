@@ -100,8 +100,9 @@ p {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #0f0f0f;
+  background: var(--orange);
   transform-origin: bottom;
+  z-index: 100;
 }
 
 .slide-out {
@@ -110,8 +111,9 @@ p {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #0f0f0f;
+  background: var(--orange);
   transform-origin: bottom;
+  z-index: 100;
 }
 
 .text-color {
