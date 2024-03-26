@@ -1,0 +1,85 @@
+.nav-link {
+  font-family: "FN Bold";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--brown-light);
+  border-bottom: 2px solid var(--bg);
+  transition: 0.3s ease-in-out;
+}
+
+.logo > a > img {
+  transition: 0.5s ease-in-out;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  margin-left: 11px;
+}
+
+.logo > a > img:hover {
+  filter: contrast(150%);
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  justify-self: center;
+  width: 1760px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 80px;
+}
+
+.nav-item {
+  transition: 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+}
+
+.nav-item:hover .nav-link {
+  color: var(--brown);
+  transform: scale(1.05);
+  border-bottom: 2px solid var(--brown);
+}
+
+.place {
+  display: flex;
+  align-items: center;
+  background-color: #fffefe;
+}
+
+.place > .place__img {
+  transition: 0.2s ease-in-out;
+  width: 46px;
+  height: 46px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/img/icogeo.svg");
+  margin-right: 6px;
+}
+
+.place > p {
+  font-family: "FN Bold";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--orange);
+  transition: 0.2s ease-in-out;
+}
+
+.place:hover .place__img {
+  background-image: url("assets/img/icogeobrown.svg");
+}
+
+.place:hover p {
+  color: var(--brown);
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "FN Bold";
+  src: local("FNBold"), local("FNBold"), url("./fonts/FNBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FN Book";
+  src: local("FNBook"), local("FNBook"), url("./fonts/FNBook.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FN Demi";
+  src: local("FNDemi"), local("FNDemi"), url("./fonts/FNDemi.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FN Medium";
+  src: local("FNMedium"), local("FNMedium"), url("./fonts/FNMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SB Cyrillic";
+  src: local("SBCyrillic"), local("SBCyrillic"), url("./fonts/SBCyrillic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SB Cyrillic";
+  src: local("SBBoldCyrillic"), local("SBBoldCyrillic"), url("./fonts/SBBoldCyrillic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+:root {
+  background-color: #fffefe;
+  --brown: #59443f;
+  --orange: #ffc59e;
+  --text: #080606;
+  --bg: #fffefe;
+  --brown-light: #c3b9b5;
+  --brown-bg: #ede9e8;
+  --font-family: "FN Book", sans-serif;
+  --second-family: "SBCyrillic", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html,
+body {
+  font-weight: 500;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  cursor: url("/assets/cursor/arrow.cur"), auto;
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+button {
+  cursor: url("/assets/cursor/link.cur"), auto;
+}
+
+button {
+  background-color: var(--bg);
+}
+
+h1,
+h2,
+h3,
+p {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+}
+
+.text-color {
+  color: var(--text);
+}/*# sourceMappingURL=index.css.map */

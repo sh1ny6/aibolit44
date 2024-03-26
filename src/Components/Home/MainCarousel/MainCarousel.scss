@@ -1,0 +1,148 @@
+.mainCarousel {
+  margin-top: 65px;
+  display: flex;
+  width: 1920px;
+  position: relative;
+  height: 834px;
+}
+.mainCarousel-dots {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-left: 110px;
+  margin-right: 265px;
+}
+.mainCarousel-dots__dot {
+  font-family: 'FN Bold';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--brown-light);
+  background-color: var(--bg);
+}
+.mainCarousel-dots__dot:hover {
+  color: var(--brown);
+}
+.mainCarousel-cards {
+  display: flex;
+  position: absolute;
+  left: 600px;
+}
+.mainCarousel-cards-card {
+  width: 1505px;
+  display: flex;
+  position: relative;
+}
+.mainCarousel-cards-card__img {
+  position: absolute;
+  left: 671px;
+}
+.mainCarousel-cards-card__h1 {
+  font-family: 'SB Cyrillic';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 137%;
+  color: var(--text);
+  width: 645px;
+  // margin-left: 48px;
+  margin-bottom: 34px;
+  margin-top: 37px;
+}
+.mainCarousel-cards-card__img1 {
+  width: 833px;
+  height: 786px;
+}
+.mainCarousel-cards-card__img2 {
+  width: 834px;
+  height: 806px;
+}
+.mainCarousel-cards-card__img3 {
+  width: 598px;
+  height: 819px;
+}
+.mainCarousel-cards-card__img4 {
+  width: 830px;
+  height: 725px;
+}
+.mainCarousel-cards-card__img5 {
+  width: 678px;
+  height: 645px; //??
+  transform: rotate(10deg);
+}
+.mainCarousel-cards-card__img6 {
+  width: 926px;
+  height: 617px;
+}
+.mainCarousel-cards-card__button {
+  width: 284px;
+  height: 66px;
+  border-radius: 33.5px;
+  box-shadow: 0px 4px 20px 0px rgb(255, 197, 158);
+  background: rgb(255, 197, 158);
+  font-family: 'FN Bold';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.mainCarousel-cards-card__button:hover {
+  background: rgb(89, 68, 63);
+  box-shadow: 0px 4px 20px 0px rgb(89, 68, 63);
+}
+.mainCarousel__links {
+  margin-top: 197px;
+  display: flex;
+}
+.mainCarousel__links__a {
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+  transition: 0.2s ease-in-out;
+}
+.mainCarousel__links__a:last-child {
+  margin-right: 0;
+}
+.mainCarousel__links__a1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('assets/img/inst.svg');
+}
+.mainCarousel__links__a2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('assets/img/fb.svg');
+}
+.mainCarousel__links__a3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('assets/img/vk.svg');
+}
+.mainCarousel__links__a4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('assets/img/youtube.svg');
+}
+.mainCarousel__links__a1:hover {
+  background-image: url('assets/img/instb.svg');
+}
+.mainCarousel__links__a2:hover {
+  background-image: url('assets/img/fbb.svg');
+}
+.mainCarousel__links__a3:hover {
+  background-image: url('assets/img/vkb.svg');
+}
+.mainCarousel__links__a4:hover {
+  background-image: url('assets/img/youtubeb.svg');
+}
+.mainCarousel-cards-card__phone {
+  position: absolute;
+  left: 1215px;
+  font-family: 'FN Bold';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--brown);
+  z-index: 1;
+  top: 655px;
+}

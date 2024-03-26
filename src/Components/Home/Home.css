@@ -1,0 +1,250 @@
+.aboutcompany {
+  background-color: #fbf8f8;
+  padding-top: 180px;
+  padding-bottom: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutcompany__p {
+  font-family: "FN Book";
+  width: 480px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--brown);
+}
+
+.aboutcompany__h3 {
+  margin-bottom: 48px;
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--text);
+}
+
+.aboutcompany__linkp {
+  font-family: "FN Bold";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--orange);
+  margin-right: 5px;
+}
+
+.aboutcompany__link {
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+  display: flex;
+  transition: 0.2s ease-in-out;
+}
+
+.aboutcompany__link:hover {
+  transform: scale(1.1);
+}
+
+.aboutcompany-link__img {
+  transition: 0.2s ease-in-out;
+}
+
+.aboutcompany__link:hover .aboutcompany-link__img {
+  transform: translateX(10px);
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+
+.helped {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 473px;
+  margin-top: 316px;
+}
+
+.helped__count {
+  font-family: "SB Cyrillic";
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 76%;
+  color: var(--brown);
+  margin-bottom: 20px;
+}
+
+.helped__h2 {
+  width: 716px;
+  font-family: "FN Book";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 137%;
+  color: var(--text);
+}
+
+.yellowbird {
+  position: absolute;
+  right: 645px;
+  top: 290px;
+}
+
+.whyus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 309px;
+}
+
+.whyus__h3 {
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--text);
+  text-align: center;
+}
+
+.whyus__h4 {
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 133%;
+  color: var(--text);
+  margin-bottom: 36px;
+}
+
+.whyus__p {
+  font-family: "FN Book";
+  width: 318px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--brown);
+  margin-left: 60px;
+}
+
+.whyus-elem-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.whyus__img {
+  width: 77px;
+  height: 77px;
+}
+
+.whyus-grid-block {
+  display: flex;
+}
+
+.whyus-grid-block:last-child {
+  margin-bottom: 0;
+}
+
+.whyus-grid {
+  max-width: 1640px;
+  gap: 70px 94px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 104px;
+}
+
+.mobile-download__img {
+  transition: 0.2s ease-in-out;
+}
+
+.mobile-download__img:hover {
+  transform: scale(1.1);
+}
+
+.newapp {
+  background-color: var(--orange);
+  padding-top: 207px;
+  padding-bottom: 113px;
+  display: flex;
+  padding-left: 230px;
+}
+
+.appanddog {
+  transform: translate(-135px, -44px);
+}
+
+.newapp-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.newapp__p {
+  margin-bottom: 30px;
+  font-family: "FN Book";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 67%;
+  text-align: center;
+  color: #fff;
+}
+
+.newapp__h3 {
+  width: 826px;
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 137%;
+  color: #fff;
+}
+
+.contacts {
+  padding: 235px 230px 209px 230px;
+}
+
+.contacts-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__h5 {
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 70px;
+  color: var(--text);
+}
+
+.contacts__h6 {
+  margin-bottom: 20px;
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 133%;
+  color: var(--text);
+}
+
+.contacts__p {
+  font-family: "FN Book";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--brown);
+  width: 270px;
+}
+
+.contacts-info-elem {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.contacts-info-elem:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__ico {
+  margin-right: 20px;
+}/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,114 @@
+.news__h2 {
+  margin-right: 225px;
+  margin-top: 88px;
+  margin-bottom: 100px;
+  font-family: "SB Cyrillic";
+  width: 326px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 137%;
+  color: var(--text);
+}
+
+.news-nav__elem {
+  font-family: "FN Bold";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--brown-light);
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+.news-nav__elem:hover {
+  color: var(--brown);
+}
+
+.news-right {
+  width: 909px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 188px;
+}
+
+.news-num {
+  text-align: end;
+}
+
+.news-num__page {
+  margin-right: 16px;
+  font-family: "FN Book";
+  background-color: var(--bg);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--brown-light);
+}
+
+.news-num__page:last-child {
+  margin-right: 0;
+}
+
+.news__h3 {
+  font-family: "SB Cyrillic";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 167%;
+  color: var(--text);
+}
+
+.news__small {
+  font-family: "FN Book";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: var(--brown-light);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.news-main__elem {
+  display: flex;
+  align-items: center;
+}
+
+.news__p {
+  font-family: "FN Book";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: var(--brown);
+}
+
+.news-text {
+  margin-left: 30px;
+}
+
+.news-main {
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-img-timedup {
+  opacity: 0.5;
+}
+
+.news__smalldiff {
+  font-family: "FN Book";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: var(--brown);
+  margin-bottom: 10px;
+}
+
+.diff {
+  color: var(--brown-light);
+}/*# sourceMappingURL=News.css.map */

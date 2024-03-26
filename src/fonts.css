@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "FN Bold";
+  src: local("FNBold"), local("FNBold"), url("./fonts/FNBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FN Book";
+  src: local("FNBook"), local("FNBook"), url("./fonts/FNBook.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FN Demi";
+  src: local("FNDemi"), local("FNDemi"), url("./fonts/FNDemi.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FN Medium";
+  src: local("FNMedium"), local("FNMedium"), url("./fonts/FNMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SB Cyrillic";
+  src: local("SBCyrillic"), local("SBCyrillic"), url("./fonts/SBCyrillic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SB Cyrillic";
+  src: local("SBBoldCyrillic"), local("SBBoldCyrillic"), url("./fonts/SBBoldCyrillic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}/*# sourceMappingURL=fonts.css.map */
