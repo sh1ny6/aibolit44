@@ -12,6 +12,7 @@
   outline: 1px solid rgba(142, 142, 142, 0.603);
 }
 .uslugi-item {
+  overflow: hidden;
   flex-direction: column;
   display: flex;
   width: 320px;
@@ -110,10 +111,10 @@
   background-image: url('assets/img/p11b.svg');
 }
 .uslugi-item__ico12 {
-  background-image: url('assets/img/p12.svg');
+  transition: 0.2s ease-in-out;
 }
 .uslugi-item:hover .uslugi-item__ico12 {
-  background-image: url('assets/img/p12b.svg');
+  fill: var(--brown);
 }
 .uslugi-item__ico13 {
   background-image: url('assets/img/p13.svg');

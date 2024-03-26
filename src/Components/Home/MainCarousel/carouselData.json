@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Айболит круглосуточная ветклиника",
+    "buttonText": "ЗАПИСАТЬСЯ",
+    "phone": "+7 (8442) 96 22 92",
+    "image": "/assets/img/catdog.png",
+    "imageAlt": "catdog",
+    "socialLinks": [
+      {
+        "href": "https://www.instagram.com/",
+        "className": "mainCarousel__links__a1"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "className": "mainCarousel__links__a2"
+      },
+      { "href": "https://www.vk.com/", "className": "mainCarousel__links__a3" },
+      {
+        "href": "https://www.youtube.com/",
+        "className": "mainCarousel__links__a4"
+      }
+    ]
+  },
+  {
+    "title": "Комфортные оборудованные стационары",
+    "buttonText": "ЗАПИСАТЬСЯ",
+    "phone": "+7 (8442) 96 22 92",
+    "image": "/assets/img/mandog.png",
+    "imageAlt": "mandog",
+    "socialLinks": [
+      {
+        "href": "https://www.instagram.com/",
+        "className": "mainCarousel__links__a1"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "className": "mainCarousel__links__a2"
+      },
+      { "href": "https://www.vk.com/", "className": "mainCarousel__links__a3" },
+      {
+        "href": "https://www.youtube.com/",
+        "className": "mainCarousel__links__a4"
+      }
+    ]
+  },
+  {
+    "title": "Новейшее европейское оборудование",
+    "buttonText": "ЗАПИСАТЬСЯ",
+    "phone": "+7 (8442) 96 22 92",
+    "image": "/assets/img/dogvet.png",
+    "imageAlt": "dogvet",
+    "socialLinks": [
+      {
+        "href": "https://www.instagram.com/",
+        "className": "mainCarousel__links__a1"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "className": "mainCarousel__links__a2"
+      },
+      { "href": "https://www.vk.com/", "className": "mainCarousel__links__a3" },
+      {
+        "href": "https://www.youtube.com/",
+        "className": "mainCarousel__links__a4"
+      }
+    ]
+  },
+  {
+    "title": "Собственная современная лаборатория",
+    "buttonText": "ЗАПИСАТЬСЯ",
+    "phone": "+7 (8442) 96 22 92",
+    "image": "/assets/img/rabbit.png",
+    "imageAlt": "rabbit",
+    "socialLinks": [
+      {
+        "href": "https://www.instagram.com/",
+        "className": "mainCarousel__links__a1"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "className": "mainCarousel__links__a2"
+      },
+      { "href": "https://www.vk.com/", "className": "mainCarousel__links__a3" },
+      {
+        "href": "https://www.youtube.com/",
+        "className": "mainCarousel__links__a4"
+      }
+    ]
+  },
+  {
+    "title": "Аптека и зоомагазин по доступным ценам",
+    "buttonText": "ЗАПИСАТЬСЯ",
+    "phone": "+7 (8442) 96 22 92",
+    "image": "/assets/img/cat.png",
+    "imageAlt": "cat",
+    "socialLinks": [
+      {
+        "href": "https://www.instagram.com/",
+        "className": "mainCarousel__links__a1"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "className": "mainCarousel__links__a2"
+      },
+      { "href": "https://www.vk.com/", "className": "mainCarousel__links__a3" },
+      {
+        "href": "https://www.youtube.com/",
+        "className": "mainCarousel__links__a4"
+      }
+    ]
+  },
+  {
+    "title": "Груминг салон и косметические товары",
+    "buttonText": "ЗАПИСАТЬСЯ",
+    "phone": "+7 (8442) 96 22 92",
+    "image": "/assets/img/puppies.png",
+    "imageAlt": "puppies",
+    "socialLinks": [
+      {
+        "href": "https://www.instagram.com/",
+        "className": "mainCarousel__links__a1"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "className": "mainCarousel__links__a2"
+      },
+      { "href": "https://www.vk.com/", "className": "mainCarousel__links__a3" },
+      {
+        "href": "https://www.youtube.com/",
+        "className": "mainCarousel__links__a4"
+      }
+    ]
+  }
+]
